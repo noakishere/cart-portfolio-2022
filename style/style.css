@@ -1,0 +1,94 @@
+body {
+	background-image: url("https://static.dezeen.com/uploads/2020/11/luis-clara-gomes-moullinex-machine-learning-brutalist-music-video-sq.gif?w=640");
+	background-size: cover;
+	font-family: "Roboto Mono", monospace;
+	color: white;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.container {
+	display: grid; /* Set up the grid and justify/align to center */
+	justify-content: center;
+	align-content: center;
+	height: 100vh; /* Body is the height of the viewport */
+}
+
+.links {
+	padding: 5%;
+	border: 1px solid #742c4c;
+	background-color: #040404;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 14px;
+}
+
+.social-links {
+	margin-top: 2%;
+}
+
+.links a {
+	margin: 1%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	/* padding: 2px 2px; */
+}
+
+.nav-link:hover {
+	color: #d4125b;
+	text-decoration: underline;
+}
+
+.avatar {
+	align-items: center;
+	justify-content: center;
+	width: 250px;
+	height: 250px;
+	border-radius: 10%;
+}
+
+.avatar:hover {
+	animation: crazy-moves 0.2s infinite;
+	opacity: 5%;
+}
+
+@keyframes crazy-moves {
+	0% {
+		transform: translate(0, 0);
+	}
+	10% {
+		transform: translate(-5%, -5%);
+	}
+	20% {
+		transform: translate(-10%, 5%);
+	}
+	30% {
+		transform: translate(5%, -10%);
+	}
+	40% {
+		transform: translate(-5%, 15%);
+	}
+	50% {
+		transform: translate(-10%, 5%);
+	}
+	60% {
+		transform: translate(15%, 0);
+	}
+	70% {
+		transform: translate(0, 10%);
+	}
+	80% {
+		transform: translate(-15%, 0);
+	}
+	90% {
+		transform: translate(10%, 5%);
+	}
+	100% {
+		transform: translate(5%, 0);
+	}
+}
