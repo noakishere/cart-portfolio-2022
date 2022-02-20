@@ -63,6 +63,13 @@ a {
 
 /* Items grid */
 
+.container2 {
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	height: 100%;
+}
+
 .works-container {
 	display: grid;
 	align-content: center;
