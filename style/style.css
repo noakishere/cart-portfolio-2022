@@ -91,12 +91,23 @@ a {
 	justify-content: center;
 	height: 100%;
 	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+.work-description {
+	display: grid;
 }
 
 .work-container {
+	align-self: center;
 	background-color: black;
 	width: 100%;
 	padding: 5% 5% 5% 5%;
+}
+
+.work-container img {
+	width: 500px;
+	height: 250px;
 }
 
 .work-header {
@@ -106,14 +117,20 @@ a {
 	grid-template-columns: auto auto;
 }
 
+.work-header li {
+	margin-bottom: 1%;
+}
+
 .work-header img {
 	padding: 10px;
-	width: 500px;
-	height: 250px;
 }
 
 .work-header .info {
 	align-self: center;
+}
+
+.work-header a:hover {
+	color: #d4125b;
 }
 
 .bold {
