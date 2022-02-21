@@ -72,6 +72,7 @@ a {
 }
 
 .works-container {
+	background-color: black;
 	display: grid;
 	align-content: center;
 	justify-content: center;
@@ -93,6 +94,26 @@ a {
 }
 
 .slash-color {
+	color: #d4125b;
+}
+
+/* Table of contents page */
+
+.table-container {
+	align-content: center;
+	justify-content: center;
+	/* display: grid; */
+	background-color: black;
+	padding: 5%;
+	margin-top: 5%;
+	width: 100%;
+}
+
+.table-container li {
+	margin-bottom: 2%;
+}
+
+.container2 a:hover {
 	color: #d4125b;
 }
 
