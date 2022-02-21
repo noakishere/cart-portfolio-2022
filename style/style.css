@@ -68,6 +68,7 @@ a {
 	align-content: center;
 	justify-content: center;
 	height: 100%;
+	margin-top: 2%;
 }
 
 .works-container {
@@ -88,6 +89,11 @@ a {
 	padding: 5%;
 	margin-top: 5%;
 	margin-bottom: 2%;
+	width: 100%;
+}
+
+.slash-color {
+	color: #d4125b;
 }
 
 /* Media Query */
