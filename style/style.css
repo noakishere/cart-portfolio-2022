@@ -61,7 +61,7 @@ a {
 	box-shadow: red;
 }
 
-/* Items grid */
+/* Works page */
 
 .container2 {
 	display: grid;
@@ -72,7 +72,6 @@ a {
 }
 
 .works-container {
-	background-color: black;
 	display: grid;
 	align-content: center;
 	justify-content: center;
@@ -82,6 +81,43 @@ a {
 
 .item {
 	padding: 20px;
+}
+
+/* Single work page */
+
+.single-work-container {
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	height: 100%;
+	margin-top: 1%;
+}
+
+.work-container {
+	background-color: black;
+	width: 100%;
+	padding: 5% 5% 5% 5%;
+}
+
+.work-header {
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	grid-template-columns: auto auto;
+}
+
+.work-header img {
+	padding: 10px;
+	width: 500px;
+	height: 250px;
+}
+
+.work-header .info {
+	align-self: center;
+}
+
+.bold {
+	font-weight: bold;
 }
 
 /* About page */
