@@ -169,12 +169,20 @@ a {
 
 /* Media Query */
 @media only screen and (max-width: 880px) {
+	.work-header {
+		width: 90%;
+	}
+
 	.about-container {
 		width: 90%;
 	}
 
 	.works-container {
 		grid-template-columns: auto auto;
+	}
+
+	.single-work-container {
+		width: 90%;
 	}
 }
 
